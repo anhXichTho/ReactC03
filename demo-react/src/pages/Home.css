@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    flex: 1;
+    border: 1px solid;
+    height: 100px;
+}
+
+.banner {
+    flex: 4;
+    border: 1px solid;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    border: 1px solid;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.menu-left, .menu-right {
+    display: flex;
+}
+
+.menu-item {
+    border: 1px solid;
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.main {
+    display: flex;
+    height: 600px;
+}
+
+.sidebar {
+    flex: 1;
+    height: 100%;
+    border: 1px solid;
+}
+
+.content {
+    flex: 5;
+    height: 100%;
+    border: 1px solid;
+}
